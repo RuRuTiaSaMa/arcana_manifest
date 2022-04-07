@@ -1157,5 +1157,8 @@
   <include name="snippets/external.xml" />
   <include name="snippets/hardware.xml" />
 
+  <!-- RuRuTiaSaMa Custom repos -->
+  <include name="snippets/rurutiasama.xml" />
+
 </manifest>
 
