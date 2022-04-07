@@ -9,7 +9,7 @@
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/projectarcana-aosp/manifest -b 12.x
+repo init -u https://github.com/RuRuTiaSaMa/arcana_manifest -b 12.x
 
 # Sync
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
@@ -20,7 +20,7 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```bash
 
 # Initialize local repository  (thanks to apon77 for repo init script)
-repo init --depth=1 --no-repo-verify -u https://github.com/projectarcana-aosp/manifest -b 12.x -g default,-mips,-darwin,-notdefault
+repo init --depth=1 --no-repo-verify -u https://github.com/RuRuTiaSaMa/arcana_manifest -b 12.x -g default,-mips,-darwin,-notdefault
 
 # Sync
 repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -jX
